@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MGP Portal</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='mgp-favicon.ico') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<!--	preventing back navigation code-->
+	<script type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+
+</head>
+
+<br><br><br><br><br>
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h1>MGP</h1>
+		<p>Welcome To The Login Page Of Mothers Grace Production. <br>
+			Please Sign In.
+		</p>
+		</div>
+	</div>
+
+	<div class="right">
+		<h5>Login Portal</h5>
+			<form method="POST" action="/login">
+			<input type="text" placeholder="Username" name="username">
+			<br>
+			<input type="password" placeholder="Password" name="password">
+			<br><br>
+
+				{% for message in get_flashed_messages() %}
+				<div class="alert alert-warning" role="alert">
+					{{ message }}
+				</div>
+				{% endfor %}
+				<br>
+
+			<button type="submit">Login</button>
+
+			</form>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MGP Portal</title>
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='mgp-favicon.ico') }}">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+</head>
+<body>
+<br><br><br><br><br>
+
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h2 style="font-size: 50px;">Welcome, {{ name }}!</h2>
+		<p style="font-size: 27px;">Please Login....</p>
+		<span>
+		</span>
+		</div>
+	</div>
+	<div>
+	</div>
+
+
+	<div class="signout">
+		<form method="POST">
+			<button name="signout" type="submit" value="Sign Out">Signout</button>
+		</form>
+	</div>
+
+	<div class="right">
+		<form method="POST">
+			  <button name="mgplogin" type="submit" value="Submit">Start My Day</button>
+		</form>
+		<form method="POST">
+			<button style="margin: 50px" name="mgplogout" type="submit" value="Submit">End My Day</button>
+		</form>
+
+	</div>
+
+
+</div>
+
+</body>
+</html>

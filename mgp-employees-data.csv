@@ -1,0 +1,12 @@
+employee_id,first_name,last_name,birth_date,address,contact_number,email_id,designation,username,password
+1,Pranit,Singh,1992-06-23,Thane,7977590072,pranit.mgp@gmail.com,"Senior Operations Manager",pranitsingh,Aarohi3107
+2,Yogesh,Kulkarni,1996-10-17,Thane,9004362578,kulkarniy507@gmail.com,"Senior Graphic Designer",yogeshkulkarni,Admin123
+3,Siddhesh,Koltharkar,1993-05-20,Thane,8856818237,sidkoltharkar@gmail.com,"Senior Presentation Designer",siddheshkoltharkar,1234
+4,Rakesh,Sonawane,1993-08-02,Thane,8286657271,rakeshsonawane555@gmail.com,"Senior Designer",rakeshsonawane,1234
+5,Jagdeep,Singh,1992-08-30,Thane,8976030438,jd.dhillon1656@gmail.com,"Motion Graphics Editor",jagdeepsingh,1234
+6,Deepak,Behera,2001-11-17,Thane,8806899882,beherad592@gmail.com,"Junior Developer",deepakbehera,Deepak26@
+7,Allethea,Dias,2001-01-20,Thane,9930074608,allethea.dias@gmail.com,"Event Manager",alletheadias,Arokspics@2001
+8,Piya,Bhanushali,2007-04-02,Thane,9324833013,piyavari@gmail.com,Intern,piyabhanushali,1234
+9,Aryan,Jadhav,2002-01-12,Thane,7715989974,aryanjadhav075@gmail.com,"Operation Executive",aryanjadhav,arujadhav4257
+10,Pratik,Gulambe,2001-05-01,Thane,8652518869,pratik01gulambe@gmail.com,"Production Coordinator",pratikgulambe,1234
+11,Manish,Jaiswal,1990-05-18,Thane,9867889039,jaiswal.manish12@gmail.com,"Presentation Designer",manishjaiswal,Manish@123
